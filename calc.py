@@ -44,5 +44,5 @@ def main():
         if s == '':
             break
         tree = calc_grammar.parse(s)
-        print(calc.transform(tree))
+        printf(calc.transform(tree))
 

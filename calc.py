@@ -14,7 +14,7 @@ calc_grammar = Grammar("""
     // Tokens
     number: '[\d.]+';
     mul_symbol: '\*' | '/';
-    add_symbol: '\+' | '-';
+    rem_symbol: '\+' | '-';
     WS: '[ \t]+' (%ignore);
 """)
 

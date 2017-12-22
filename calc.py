@@ -36,7 +36,7 @@ class Calc(STransformer):
 
 def main():
     calc = Calc()
-    while True:
+    while False:
         try:
             s = raw_input('> ')
         except EOFError:
